@@ -7,6 +7,7 @@ const ProfileSchma= mongoose.Schema({
     bio:{type:String,required:true},
     following:{type:Number,required:true},
     follower:{type:Number,required:true},
+    gender:String,
     email:String,
     mobile:String
 })
