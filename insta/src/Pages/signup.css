@@ -1,6 +1,6 @@
 .signup{
     display: flex;
-    gap:1rem;
+    gap:1.5rem;
     padding-top: 2rem;
     padding-bottom: 10rem;
     margin:auto;
@@ -10,10 +10,11 @@
     border:1px solid rgba(0, 0, 0, 0.21);
      background-color: white;
      width:350px;
-     height: 400px;
+     height: 415px;
+     margin-top: 30px;
 }
 .mainbox{
-    background-color:#f3f3f0;
+    background-color:#faf9f9;
     height: 100%;
 }
 .box img{
@@ -23,7 +24,11 @@ position: relative;
     border:1px solid rgba(0, 0, 0, 0.21);
      background-color: white;
      width:350px;
-     height: 80px;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:0.5rem;
 }
 .box0{
     display: flex;
@@ -32,5 +37,55 @@ position: relative;
 }
 
 .inp{
-    padding: 0px 40px 0px 40px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+input::placeholder {
+    font-size:13px;
+   
+  }
+
+  input::placeholder:not(:focus) {
+    font-size: 1px;
+    color: gray;
+  }
+  
+.facebook{
+    display: flex;
+    justify-content: center;
+    color: rgba(14, 14, 152, 0.986);
+    gap:1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box2 p{
+    align-items: center;
+}
+  .signuph4{
+    color: #0095f6;
+    font-size: large;
+    font-weight:400;
+    cursor: pointer;
+  }
+
+  .playstore{
+   margin-top: -10px;
+  }
+  .playstore div{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin-top: 10px;
+  }
+  .playstore div img{
+    height: 50px;
+    width:150px;
+  }
+.terms{
+  margin-top: -80px;
 }
