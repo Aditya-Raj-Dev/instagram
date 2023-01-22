@@ -1,4 +1,4 @@
-.signup{
+.login{
     display: flex;
     gap:1.5rem;
     padding-top: 2rem;
@@ -66,7 +66,7 @@ input::placeholder {
 .box2 p{
     align-items: center;
 }
-  .signuph4{
+  .loginh4{
     color: #0095f6;
     font-size: large;
     font-weight:400;
@@ -89,3 +89,19 @@ input::placeholder {
 .terms{
   margin-top: -80px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Medium screen styles */
+    .term,.instaimg{
+      display: none;
+    }
+    .login{
+        justify-content: center;
+        width:80%;
+    }
+  }
+  
+  @media only screen and (max-width: 410px) {
+    /* Small screen styles */
+    
+  }

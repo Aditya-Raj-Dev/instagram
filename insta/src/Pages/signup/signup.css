@@ -1,0 +1,59 @@
+.container{
+    background-color:#faf9f9;
+    height: 100%;
+    
+}
+.signupbox{
+display: flex;
+flex-direction: column;
+gap:1rem;
+}
+
+.signbox1{
+    border:1px solid rgba(0, 0, 0, 0.21);
+    background-color: white;
+    width:350px;
+    height: 515px;
+    margin: auto;
+}
+.signbox2{
+    border:1px solid rgba(0, 0, 0, 0.21);
+    background-color: white;
+    width:350px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    margin: auto;
+}
+.signheadline{
+    margin-top: -40px;
+    padding: 0px 20px 15px 20px;
+    font-size: large;
+    font-weight:600;
+    color:gray;
+}
+.signh4{
+    color: #0095f6;
+    font-size: large;
+    font-weight:400;
+    cursor: pointer;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    /* Medium screen styles */
+    /* .term,.instaimg{
+      display: none;
+    } */
+    .signupbox{
+        justify-content: center;
+        width:80%;
+    }
+  }
+  
+  @media only screen and (max-width: 410px) {
+    /* Small screen styles */
+    
+  }
